@@ -5,9 +5,14 @@
 
 .header {
     background-color: #FFF8F3;
+    /* background-color: #6d6d6d; */
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right, left;
+    background-position: bottom right, center left 30px;
+}
+header img.smart{
+    position: relative;
+    right: -150px;
 }
 
 /* header and navigation styles */
@@ -105,10 +110,6 @@ section{
     margin-bottom: 30px;
 }
 
-img.smart {
-    margin-right: -250px;
-}
-
 .about-info-container {
     display: flex;
     justify-content: space-around;
@@ -159,3 +160,42 @@ img.smart {
 }
 
 /* Resume Styles */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+    
+}
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    text-align: justify;
+
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}

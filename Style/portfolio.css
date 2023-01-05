@@ -75,43 +75,87 @@ nav li {
     margin-bottom: 25px;
 
 }
+
 /* main section */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-/* about section styles */
-.about{
-   margin-top: 130px; 
-   background: #FFF8F3;
-   border-radius: 10px;
-   padding: 130px 150px;
-   text-align: center;
+section{
+    margin-top: 80px;
 }
-.section-title{
+
+/* about section styles */
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.section-title {
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    text-align: center;
 }
-.section-description{
+
+.section-description {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
 }
-img.smart{
+
+img.smart {
     margin-right: -250px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about .info-title{
+
+.about .info-title {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+/* what i do styles */
+.what-i-do {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
 
 }
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-size: 20px;
+    color: #181818;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+.skill-description {
+    color: #757575;
+
+}
+
+/* Resume Styles */

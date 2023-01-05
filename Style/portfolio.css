@@ -19,7 +19,8 @@ header img.smart{
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
+    padding: 50px 0;
 }
 
 .nav-title {
@@ -50,6 +51,17 @@ nav li {
     height: 64px;
     background: #FD6E0A;
     border-radius: 10px;
+}
+.btn-contact{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+    padding: 18.5px 35.5px;
+    height: 64px;
+    background: none;
+    border-radius: 10px;
+    margin-left: 30px;
 }
 
 /* banner styles */
@@ -168,7 +180,7 @@ section{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.resume .title{
+.resume-title{
     font-weight: 700;
     font-size: 30px;
     color: #474747;
@@ -198,4 +210,35 @@ section{
 .resume-btn{
     margin-top: 50px;
     text-align: center;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+    
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+    justify-content: space-between;
+}
+.icon{
+    margin-right: 30px;
 }
